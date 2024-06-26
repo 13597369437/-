@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "标准函数库", "标准函数库\标准函数库.csproj", "{588B9C7F-B2AF-474F-819B-2A703538CCA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{588B9C7F-B2AF-474F-819B-2A703538CCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588B9C7F-B2AF-474F-819B-2A703538CCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588B9C7F-B2AF-474F-819B-2A703538CCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588B9C7F-B2AF-474F-819B-2A703538CCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7766C26A-C5D2-4351-973A-3EA952365119}
+	EndGlobalSection
+EndGlobal
