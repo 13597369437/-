@@ -21,7 +21,7 @@ namespace 标准函数库
 
         void test()
         {
-
+            MessageBox.Show("holle,word!");
         }
     }
 }
