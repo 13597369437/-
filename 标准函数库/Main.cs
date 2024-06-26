@@ -18,5 +18,10 @@ namespace 标准函数库
         {
             InitializeComponent();
         }
+
+        void test()
+        {
+
+        }
     }
 }
