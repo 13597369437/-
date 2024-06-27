@@ -29,7 +29,9 @@ namespace 标准函数库
         public static string[] wdd = new[] { "1", "2", "3" };//温度段数
         public static string[] rtnums = new[] {"8", "12", "16", "20", "24"};//熔头数量
 
-       
+        public static List<string> peizhivalues = new List<string>();
+
+
         //读取配置信息
         public static void readpeizhi(IFreeSql sql)
         {

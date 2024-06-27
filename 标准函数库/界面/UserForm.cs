@@ -36,7 +36,7 @@ namespace 标准函数库
 
         private void Main_Denglu()
         {
-            if (int.Parse(DataClass.Power) >= 3)
+            if (DataClass.Power >= 3)
             {
                 uiButton3.Enabled = true;
                 uiButton4.Enabled = true;
@@ -45,7 +45,7 @@ namespace 标准函数库
                 uiButton6.Enabled = true;
                 uiButton2.Enabled = false;
             }
-            else if(int.Parse(DataClass.Power) >0)
+            else if(DataClass.Power > 0)
             {
                 uiButton3.Enabled = true;
                 uiButton6.Enabled = true;
@@ -289,7 +289,7 @@ namespace 标准函数库
             if (frm.IsLogin)
             {
                 DataClass.User = frm.UserName;
-                DataClass.Power = users[0].权限;
+                DataClass.Power = int.Parse(users[0].权限);
                 DataClass.Name = users[0].姓名;
              
                 Denglu(true);
@@ -306,7 +306,7 @@ namespace 标准函数库
             users = fsql.Select<用户管理>().Where(b => b.用户名 == userName).ToList();
 
 
-            if (DataClass.peizhivalues1[5] == "0")
+            if (DataClass.peizhivalues[5] == "0")
             {
                 if (users.Count == 0)
                 {
@@ -343,7 +343,7 @@ namespace 标准函数库
         private void uiButton6_Click(object sender, EventArgs e)
         {
             DataClass.User = "";
-            DataClass.Power = "0";
+            DataClass.Power = 0;
             DataClass.Name = "";
             Denglu(false);
             Main_Denglu();
