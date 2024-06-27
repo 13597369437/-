@@ -25,5 +25,10 @@ namespace 标准函数库
         {
             MessageBox.Show("holle,word!");
         }
+
+        void test1()
+        {
+            MessageBox.Show("holle,我是111仓库提供的");
+        }
     }
 }
