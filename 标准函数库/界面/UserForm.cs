@@ -22,7 +22,7 @@ namespace 标准函数库
 {
     public partial class UserForm : UIPage
     {
-        IFreeSql fsql = DB.MySQL1("数据库");
+        IFreeSql fsql = DB.MySQL1("标准函数数据库");
 
         List<用户管理> users = new List<用户管理>();
 

@@ -335,7 +335,7 @@ namespace 标准函数库
                     }
                     sw.Close();//关闭写入流
                     myStream.Close();//关闭流变量
-                    ShowSuccessTip("导出表格成功！");
+                    ShowErrorDialog("导出表格成功！");
                 }
                 catch (Exception e)
                 {
@@ -349,7 +349,7 @@ namespace 标准函数库
             }
             else
             {
-                ShowInfoTip("取消导出表格操作!");
+                ShowErrorDialog("取消导出表格操作！");
             }
         }
 
